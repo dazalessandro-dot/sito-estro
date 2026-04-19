@@ -14,11 +14,11 @@ export function GridTile({ section }: GridTileProps) {
     <Link
       href={`/${section.slug}`}
       aria-label={section.title}
-      className="group relative block aspect-square min-w-0 overflow-hidden rounded-[1.3rem] border border-[rgba(98,79,61,0.16)] bg-[rgba(255,249,241,0.8)] p-2 shadow-[0_1px_0_rgba(255,255,255,0.5),0_18px_40px_rgba(103,76,54,0.08)] transition-transform duration-150 ease-out hover:-translate-y-[1px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[rgba(110,84,58,0.55)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--page-bg)]"
+      className="group relative block aspect-[1.14/1] min-w-0 overflow-hidden rounded-[0.18rem] border border-[rgba(59,46,35,0.55)] bg-[#efe3cc] shadow-[0_1px_0_rgba(255,255,255,0.45)] transition-[transform,filter] duration-150 ease-out hover:-translate-y-[1px] hover:brightness-[1.02] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[rgba(110,84,58,0.55)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--page-bg)]"
     >
       <PlaceholderWorld variant={section.visualVariant} title={section.visualNote} />
-      <div className="pointer-events-none absolute inset-x-2 bottom-2 rounded-[0.95rem] bg-[linear-gradient(180deg,rgba(43,34,28,0)_0%,rgba(43,34,28,0.1)_38%,rgba(43,34,28,0.72)_100%)] p-3 pt-8">
-        <span className="block translate-y-0 font-sans text-[0.68rem] font-medium uppercase tracking-[0.12em] text-[rgba(249,244,236,0.9)] opacity-100 transition duration-150 md:translate-y-1 md:opacity-0 md:group-hover:translate-y-0 md:group-hover:opacity-100">
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-[linear-gradient(180deg,rgba(21,16,13,0)_0%,rgba(21,16,13,0.12)_46%,rgba(21,16,13,0.78)_100%)] px-3 pb-2 pt-7">
+        <span className="block translate-y-0 font-sans text-[0.58rem] font-medium uppercase tracking-[0.16em] text-[rgba(250,245,236,0.94)] opacity-100 transition duration-150 md:translate-y-1 md:opacity-0 md:group-hover:translate-y-0 md:group-hover:opacity-100">
           {label || " "}
         </span>
       </div>
