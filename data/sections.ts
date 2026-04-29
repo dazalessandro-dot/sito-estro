@@ -107,54 +107,6 @@ export const studioSections: StudioSection[] = [
     visualVariant: 6,
     visualNote: "Method grid",
   },
-  {
-    id: "host",
-    slug: "host",
-    title: "Host",
-    tileTitle: "Host",
-    subtitle: "A section for gatherings, hospitality, and formats that invite others in.",
-    intro:
-      "A flexible destination for events, temporary programs, and hosted conversations.",
-    paragraphs: [
-      "Host can later support workshops, dinners, talks, collaborations, or guest formats that orbit the studio rather than the more fixed project archive.",
-      "The page is intentionally generic right now so it can adapt to many futures: calendar snapshots, event cards, programs, or simple invitations.",
-      "It remains part of the same visual language, but it leaves enough openness to grow into something more social and time-based later.",
-    ],
-    visualVariant: 7,
-    visualNote: "Gathering frame",
-  },
-  {
-    id: "sezione-vuota-1",
-    slug: "sezione-vuota-1",
-    title: "Section 08",
-    tileTitle: "",
-    subtitle: "An open placeholder kept intentionally neutral for a future section.",
-    intro:
-      "This page exists so the structure stays complete while the naming stays undecided.",
-    paragraphs: [
-      "The section is deliberately unnamed in the landing grid so it can be assigned later without fighting against an early label or a misleading category.",
-      "When the direction becomes clearer, you can rename the slug, tile title, page title, and copy from one central config file without touching the component structure.",
-      "Until then, it behaves like a reserved slot inside the poster composition: present, balanced, and easy to redefine.",
-    ],
-    visualVariant: 8,
-    visualNote: "Reserved slot",
-  },
-  {
-    id: "sezione-vuota-2",
-    slug: "sezione-vuota-2",
-    title: "Section 09",
-    tileTitle: "",
-    subtitle: "A second open placeholder for future expansion or reframing.",
-    intro:
-      "A companion slot that keeps the nine-panel composition intact and flexible.",
-    paragraphs: [
-      "This second placeholder works as spare capacity inside the site structure. It can later become a section, a campaign, an archive, or an experiment without needing to redraw the homepage.",
-      "Keeping it light and unnamed preserves room for future decisions while still making the prototype feel complete and navigable today.",
-      "Because the architecture is centralized, swapping this into a fully named section later is a small content edit rather than a rebuild.",
-    ],
-    visualVariant: 9,
-    visualNote: "Open reserve",
-  },
 ];
 
 export function getSectionBySlug(slug: string) {
